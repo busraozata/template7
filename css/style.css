@@ -1847,7 +1847,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 .doctors .swiper {
   width: 100%;
   height: 100%;
-  position: unset;
+  position: unset !important;
 }
 
 .doctors .swiper .swiper-slide {
@@ -2672,7 +2672,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 .blog .swiper {
   width: 100%;
   height: 100%;
-  position: unset;
+  position: unset !important;
 }
 
 .blog .swiper .swiper-slide {
