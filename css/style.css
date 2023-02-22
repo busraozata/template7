@@ -486,7 +486,7 @@ header .header-inner nav .nav-menu .navigation .social-media ul li a {
 }
 
 header .header-inner nav .nav-menu .navigation .social-media ul li a:hover {
-  color: var(--color-gray);
+  color: var(--color-text-gray);
 }
 
 @media screen and (max-width: 1200px) {
@@ -887,7 +887,7 @@ header .header-inner .right-area .social-media ul li a {
 }
 
 header .header-inner .right-area .social-media ul li a:hover {
-  color: var(--color-gray);
+  color: var(--color-text-gray);
 }
 
 .banner {
@@ -3062,7 +3062,7 @@ footer .footer-top .social-media ul li a {
 }
 
 footer .footer-top .social-media ul li a:hover {
-  color: var(--color-gray);
+  color: var(--color-text-gray);
 }
 
 footer .footer-middle {

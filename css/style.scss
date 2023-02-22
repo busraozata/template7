@@ -377,7 +377,7 @@ header {
                                     color: var(--color-white);
                                     transition: 0.3s all;
                                     &:hover {
-                                        color: var(--color-gray);
+                                        color: var(--color-text-gray);
                                     }
                                 }
                             }
@@ -712,7 +712,7 @@ header {
                             color: var(--color-brown);
                             transition: 0.3s all;
                             &:hover {
-                                color: var(--color-gray);
+                                color: var(--color-text-gray);
                             }
                         }
                     }
@@ -2185,7 +2185,7 @@ footer {
                         font-size: 1.3rem;
                         transition: 0.3s all;
                         &:hover {
-                            color: var(--color-gray);
+                            color: var(--color-text-gray);
                         }
                     }
                 }
