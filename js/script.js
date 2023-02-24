@@ -10,7 +10,7 @@ menuToggle.onclick = function () {
     menuToggle.innerHTML = `<i class="fa-solid fa-xmark"></i>`;
   }
 };
-AOS.init();
+
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
@@ -165,3 +165,4 @@ dropdowns.forEach((dd) => {
     el.style.display = el.style.display === "block" ? "none" : "block";
   });
 });
+AOS.init();
