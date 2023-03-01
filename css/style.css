@@ -2926,21 +2926,21 @@ header .header-inner .right-area .social-media ul li a:hover {
 }
 
 .doctors .swiper .swiper-slide:hover .service-title {
-  background-color: var(--color-gray);
+  background-color: var(--color-brown);
 }
 
 .doctors .swiper .swiper-slide:hover .service-title h6 {
-  color: var(--color-brown);
+  color: var(--color-white);
 }
 
 .doctors .swiper .swiper-slide:hover .service-title span {
-  color: var(--color-brown);
+  color: var(--color-white);
 }
 
 .doctors .swiper .swiper-slide .service-title {
   position: absolute;
   bottom: 1rem;
-  background-color: var(--color-brown);
+  background-color: var(--color-gray);
   padding: 0.7rem 3.5rem;
   border-radius: 10px;
   display: -webkit-box;
@@ -2976,7 +2976,7 @@ header .header-inner .right-area .social-media ul li a:hover {
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--color-brown);
   margin-top: 0.4rem;
 }
 
@@ -2992,7 +2992,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 
 .doctors .swiper .swiper-slide .service-title span {
   font-size: 1rem;
-  color: var(--color-white);
+  color: var(--color-brown);
   font-weight: 600;
 }
 
@@ -3278,21 +3278,21 @@ header .header-inner .right-area .social-media ul li a:hover {
 }
 
 .doctors-page .list .box:hover .service-title {
-  background-color: var(--color-gray);
+  background-color: var(--color-brown);
 }
 
 .doctors-page .list .box:hover .service-title h6 {
-  color: var(--color-brown);
+  color: var(--color-white);
 }
 
 .doctors-page .list .box:hover .service-title span {
-  color: var(--color-brown);
+  color: var(--color-white);
 }
 
 .doctors-page .list .box .service-title {
   position: absolute;
   bottom: 1rem;
-  background-color: var(--color-brown);
+  background-color: var(--color-gray);
   padding: 0.7rem 3.5rem;
   border-radius: 10px;
   display: -webkit-box;
@@ -3328,7 +3328,7 @@ header .header-inner .right-area .social-media ul li a:hover {
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--color-brown);
   margin-top: 0.4rem;
 }
 
@@ -3344,7 +3344,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 
 .doctors-page .list .box .service-title span {
   font-size: 1rem;
-  color: var(--color-white);
+  color: var(--color-brown);
   font-weight: 600;
 }
 

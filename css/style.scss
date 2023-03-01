@@ -2095,19 +2095,19 @@ header {
             }
             &:hover {
                 .service-title {
-                    background-color: var(--color-gray);
+                    background-color: var(--color-brown);
                     h6 {
-                        color: var(--color-brown);
+                        color: var(--color-white);
                     }
                     span {
-                        color: var(--color-brown);
+                        color: var(--color-white);
                     }
                 }
             }
             .service-title {
                 position: absolute;
                 bottom: 1rem;
-                background-color: var(--color-brown);
+                background-color: var(--color-gray);
                 padding: 0.7rem 3.5rem;
                 border-radius: 10px;
                 display: flex;
@@ -2125,7 +2125,7 @@ header {
                     font-size: 1.2rem;
                     margin-bottom: 0.2rem;
                     font-weight: 400;
-                    color: var(--text-color);
+                    color: var(--color-brown);
                     margin-top: 0.4rem;
                     @media screen and (max-width: 1440px) {
                         font-size: 1rem;
@@ -2136,7 +2136,7 @@ header {
                 }
                 span {
                     font-size: 1rem;
-                    color: var(--color-white);
+                    color: var(--color-brown);
                     font-weight: 600;
                     @media screen and (max-width: 1440px) {
                         font-size: 0.9rem;
@@ -2269,19 +2269,19 @@ header {
             }
             &:hover {
                 .service-title {
-                    background-color: var(--color-gray);
+                    background-color: var(--color-brown);
                     h6 {
-                        color: var(--color-brown);
+                        color: var(--color-white);
                     }
                     span {
-                        color: var(--color-brown);
+                        color: var(--color-white);
                     }
                 }
             }
             .service-title {
                 position: absolute;
                 bottom: 1rem;
-                background-color: var(--color-brown);
+                background-color: var(--color-gray);
                 padding: 0.7rem 3.5rem;
                 border-radius: 10px;
                 display: flex;
@@ -2299,7 +2299,7 @@ header {
                     font-size: 1.2rem;
                     margin-bottom: 0.2rem;
                     font-weight: 400;
-                    color: var(--text-color);
+                    color: var(--color-brown);
                     margin-top: 0.4rem;
                     @media screen and (max-width: 1440px) {
                         font-size: 1rem;
@@ -2310,7 +2310,7 @@ header {
                 }
                 span {
                     font-size: 1rem;
-                    color: var(--color-white);
+                    color: var(--color-brown);
                     font-weight: 600;
                     @media screen and (max-width: 1440px) {
                         font-size: 0.9rem;
