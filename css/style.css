@@ -519,7 +519,7 @@ header .header-inner nav .nav-menu .navigation .social-media ul li a:hover {
 }
 
 header .header-inner nav .nav-menu .navigation .dropdown-submenu {
-  /*  position: relative; */
+  position: relative;
   padding: 0;
 }
 
@@ -537,9 +537,9 @@ header .header-inner nav .nav-menu .navigation .dropdown-menu {
 }
 
 header .header-inner nav .nav-menu .navigation .dropdown-submenu > .dropdown-menu {
-  top: 5rem;
+  top: 0;
   left: 100%;
-  margin-top: -6px;
+  margin-top: -16px;
   margin-left: -1px;
   border-radius: 0 6px 6px 6px;
 }
@@ -566,12 +566,12 @@ header .header-inner nav .nav-menu .navigation .dropdown-submenu-alt ul li a:hov
 }
 
 header .header-inner nav .nav-menu .navigation .multi-level li {
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
   header .header-inner nav .nav-menu .navigation .multi-level li {
-    margin-bottom: 0.7rem;
+    padding-bottom: 0.7rem;
   }
 }
 
@@ -641,7 +641,7 @@ header .header-inner nav .nav-menu .navigation .dropdown-item:hover {
 }
 
 header .header-inner nav .nav-menu .navigation .dropdown-submenu li {
-  margin-bottom: 0rem;
+  padding-bottom: 0rem;
 }
 
 header .header-inner nav .nav-menu .navigation .dropdown-submenu li a {
@@ -1551,6 +1551,60 @@ header .header-inner .right-area .social-media ul li a:hover {
   }
 }
 
+.modal .modal-title {
+  color: var(--color-brown);
+  font-weight: 500;
+}
+
+.modal .form-control {
+  color: var(--color-text-gray);
+  border: 1px solid var(--color-text-gray);
+  resize: none;
+}
+
+.modal .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.modal .form-control::-webkit-input-placeholder {
+  color: var(--color-text-gray);
+}
+
+.modal .form-control:-ms-input-placeholder {
+  color: var(--color-text-gray);
+}
+
+.modal .form-control::-ms-input-placeholder {
+  color: var(--color-text-gray);
+}
+
+.modal .form-control::placeholder {
+  color: var(--color-text-gray);
+}
+
+.modal .form-area .btn {
+  background-color: var(--color-gray);
+  color: var(--color-brown);
+  font-weight: 500;
+  padding: 0.6rem 1.7rem;
+  border-radius: 5px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.modal .form-area .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modal .form-area .btn:hover {
+  background-color: var(--color-brown);
+  color: var(--color-white);
+}
+
 .services-page {
   position: relative;
   overflow: hidden;
@@ -1889,13 +1943,6 @@ header .header-inner .right-area .social-media ul li a:hover {
   max-width: 35rem;
 }
 
-@media screen and (max-width: 1440px) {
-  .service-detail .content p,
-  .blog-detail .content p {
-    font-size: 0.9rem;
-  }
-}
-
 .service-detail .text,
 .blog-detail .text {
   padding: 5rem 3rem 3rem 3rem;
@@ -1937,7 +1984,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 }
 
 .blog-detail .content h3 {
-  font-size: 3.8rem;
+  font-size: 5rem;
   max-width: 100%;
 }
 
@@ -1953,7 +2000,7 @@ header .header-inner .right-area .social-media ul li a:hover {
 
 @media screen and (max-width: 1440px) {
   .blog-detail .content h3 {
-    font-size: 2.8rem;
+    font-size: 3.8rem;
   }
 }
 
@@ -2171,7 +2218,17 @@ header .header-inner .right-area .social-media ul li a:hover {
   fill: #70462a;
 }
 
-@media screen and (min-width: 991px) {
+.about .img-first {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .about .img-first {
+    margin-bottom: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1500px) {
   .about .col-lg-7 {
     padding-left: 0rem;
   }
@@ -2379,6 +2436,16 @@ header .header-inner .right-area .social-media ul li a:hover {
   }
 }
 
+.about-page .img-first {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-page .img-first {
+    margin-bottom: 1.6rem;
+  }
+}
+
 .about-page .shadow-text {
   position: absolute;
   left: 0;
@@ -2478,7 +2545,7 @@ header .header-inner .right-area .social-media ul li a:hover {
   fill: #70462a;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1500px) {
   .about-page .col-lg-7 {
     padding-left: 0rem;
   }
@@ -3298,12 +3365,12 @@ header .header-inner .right-area .social-media ul li a:hover {
 .doctor-detail {
   position: relative;
   overflow: hidden;
-  padding: 6rem 5rem 3rem 5rem;
+  padding: 6rem 5rem 5rem 5rem;
 }
 
 @media screen and (max-width: 1440px) {
   .doctor-detail {
-    padding: 6rem 4rem 3rem 4rem;
+    padding: 6rem 4rem 5rem 4rem;
   }
 }
 

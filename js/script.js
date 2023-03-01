@@ -170,6 +170,10 @@ var swiper = new Swiper(".mySwiperLastBlogs", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   breakpoints: {
     640: {
       slidesPerView: 1,
@@ -192,6 +196,10 @@ var swiper = new Swiper(".mySwiperBlogsSlide", {
   navigation: {
     nextEl: "#swiper-button-next2",
     prevEl: "#swiper-button-prev2",
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
   },
   autoHeight: true,
   breakpoints: {

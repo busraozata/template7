@@ -590,7 +590,7 @@ header {
                         align-items: flex-start !important;
                     }
                     .dropdown-submenu {
-                        /*  position: relative; */
+                         position: relative;
                         padding: 0;
                     }
                     .dropdown-submenu-alt {
@@ -607,9 +607,9 @@ header {
                     }
 
                     .dropdown-submenu > .dropdown-menu {
-                        top: 5rem;
+                        top: 0;
                         left: 100%;
-                        margin-top: -6px;
+                        margin-top: -16px;
                         margin-left: -1px;
                         -webkit-border-radius: 0 6px 6px 6px;
                         -moz-border-radius: 0 6px 6px;
@@ -643,9 +643,9 @@ header {
 
                     .multi-level {
                         li {
-                            margin-bottom: 1.5rem;
+                            padding-bottom: 1.5rem;
                             @media screen and (max-width: $lg-breakpoint) {
-                                margin-bottom: 0.7rem;
+                                padding-bottom: 0.7rem;
                             }
                             a {
                             }
@@ -710,7 +710,7 @@ header {
                     }
                     .dropdown-submenu {
                         li {
-                            margin-bottom: 0rem;
+                            padding-bottom: 0rem;
                             a {
                                 color: var(--color-white) !important;
                                 &:hover {
@@ -1289,6 +1289,43 @@ header {
         }
     }
 }
+.modal{
+    .modal-title{
+        color: var(--color-brown);
+        font-weight: 500;
+    }
+    .form-control{
+        color: var(--color-text-gray);
+        border: 1px solid var(--color-text-gray);
+        &:focus{
+            box-shadow: none;
+            outline: none;
+        }
+        &::placeholder{
+            color: var(--color-text-gray);
+        }
+        resize: none;
+        
+    }
+    .form-area{
+        .btn{
+            background-color: var(--color-gray);
+            color: var(--color-brown);
+            font-weight: 500;
+            padding: 0.6rem 1.7rem;
+            border-radius: 5px;
+            transition: 0.3s all;
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
+            &:hover{
+                background-color: var(--color-brown);
+                color: var(--color-white);
+            }
+        }
+    }
+}
 
 .services-page {
     position: relative;
@@ -1439,9 +1476,7 @@ header {
             font-weight: 300;
             font-size: 1rem;
             max-width: 35rem;
-            @media screen and (max-width: 1440px) {
-                font-size: 0.9rem;
-            }
+            
         }
     }
     .text {
@@ -1470,7 +1505,7 @@ header {
 .blog-detail {
     .content {
         h3 {
-            font-size: 3.8rem;
+            font-size: 5rem;
             max-width: 100%;
             &::after {
                 margin-top: 1rem;
@@ -1479,7 +1514,7 @@ header {
                 }
             }
             @media screen and (max-width: 1440px) {
-                font-size: 2.8rem;
+                font-size: 3.8rem;
             }
             @media screen and (max-width: $xl-breakpoint) {
                 font-size: 2rem;
@@ -1630,9 +1665,15 @@ header {
             fill: #70462a;
         }
     }
-
+    .img-first{
+        margin-bottom: 2rem;
+        @media screen and (max-width:1440px) {
+            margin-bottom: 1.6rem;
+            
+        }
+    }
     .col-lg-7 {
-        @media screen and (min-width: $lg-breakpoint) {
+        @media screen and (min-width: 1500px) {
             padding-left: 0rem;
         }
     }
@@ -1650,6 +1691,7 @@ header {
                 font-size: 1.3rem;
             }
         }
+     
         .shadow-text {
             position: absolute;
             left: -0.4rem;
@@ -1772,6 +1814,13 @@ header {
             width: 100%;
         }
     }
+    .img-first{
+        margin-bottom: 2rem;
+        @media screen and (max-width:1440px) {
+            margin-bottom: 1.6rem;
+            
+        }
+    }
     .shadow-text {
         position: absolute;
         left: 0;
@@ -1849,7 +1898,7 @@ header {
     }
 
     .col-lg-7 {
-        @media screen and (min-width: $lg-breakpoint) {
+        @media screen and (min-width:1500px) {
             padding-left: 0rem;
         }
     }
@@ -2282,9 +2331,9 @@ header {
 .doctor-detail {
     position: relative;
     overflow: hidden;
-    padding: 6rem 5rem 3rem 5rem;
+    padding: 6rem 5rem 5rem 5rem;
     @media screen and (max-width: 1440px) {
-        padding: 6rem 4rem 3rem 4rem;
+        padding: 6rem 4rem 5rem 4rem;
     }
     @media screen and (max-width: $xl-breakpoint) {
         padding: 4rem 2rem 2rem 2rem;
